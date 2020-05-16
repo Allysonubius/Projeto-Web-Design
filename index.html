@@ -20,11 +20,81 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <!--ANEXO A PAGE BOOTSTRAP/-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--SCRIPT PARA AVALIAR O PROJETO COMO PEDIDO PELA FREE CODE CAMP.-->
+
 </head>
 
 <body>
     <!--BODY PARTE EXCLUSICA PARA INFORMAR O LEITOR O QUE ESTA NO CODIGO!-->
-    <nav></nav>
+    <!--APLICANDO UM MENU NAVBAR NAVBAR COM TEMA MAIS CLASSE DARK COM UM COR DO BACKGROUND PRIMARY(AZUL)-->
+    <!--MENU-->
+    <nav id="navbar" class="navbar navbar-dark bg-primary">
+        <!--APLICANDO NAVBAR-BRAND PARA DAR DESTAQUE ICONE E NOME DA PÁGINA .-->
+        <a id="menu-logo#" class="navbar-brand" href="index.html">
+            <!--ANEXADO ICONE DA PÁGINA  COM ALTURA E LARGURA DE 25PX, descrição de imagem para acessibilidade -->
+            <img src="IMG/favicon/conta_40px.png" width="30" height="30" alt="PORTFÓLIO"> PORTFÓLIO
+        </a>
+        <!--CRIADO UMA LISTA NA PARTE SUPERIOR DIREITA-->
+        <ul class="nav justify-content-end">
+            <!--ESPECIFICADO OBJETO OU SEJA NOVA ABA.-->
+            <li class="nav-item">
+                <!--O ID=PROFILE LINK , FOI ESPECIFICADO A TER NO PROJETO PARA EDIÇÃO SEM OBJEÇÃO.-->
+                <a id="profile-link#" class="nav-link " href="https://github.com/allysonubius">
+                    <!--ANEXADO LOGO DO GITHUB E LINKAGEM DO GITHUB ESPECIFICADO A TER NO PROJETO SEM OBJEÇÃO.-->
+                    <img src="IMG/Git/github_30px.png" width="30" height="30" alt="GitHub"> GitHub
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--SLIDE E IMAGEM-->
+    <div id="slide-img" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-slide d-block w-100" src="IMG/slide/Just-live.jpg" alt="Primeiro Slide">
+            </div>
+            <!--<div class="carousel-item">
+             <img class="img-slide d-block w-100" src="IMG/slide/Just-live.jpg" alt="Segundo Slide">
+            </div>
+            <a class="carousel-control-prev" href="#slide-img" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+             <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#slide-img" role="button"data-slide="next">
+             <span class="carousel-control-next-icon"aria-hidden="true"></span>
+             <span class="sr-only">Próximo</span>
+            </a>-->
+        </div>
+    </div>
+    <!--Conteudo do site-->
+    <div class="container">
+     <h1 id="welcome-section">Portfólio pessoal</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at egestas erat. Vestibulum elit quam, vehicula vitae nisi vel, finibus pulvinar libero. Suspendisse enim neque, tempus vitae rhoncus sit amet, interdum non diam. Nulla in interdum lorem, in pellentesque augue. Nulla lacinia justo sed mauris pretium, et volutpat ligula luctus. Mauris sit amet felis sapien. Pellentesque eu lorem scelerisque, iaculis dolor ut, eleifend velit. Suspendisse a gravida mauris. Aenean ultricies at diam quis rutrum. Curabitur non lacus sit amet urna sollicitudin congue ut ac ligula. Nullam maximus, velit a iaculis feugiat, nisl mi ornare erat, quis semper mi tellus ultricies urna. Mauris sodales, leo at vestibulum tincidunt, nibh magna ullamcorper massa, posuere ornare dolor odio ut est. Vivamus tempor pretium condimentum. Donec vitae orci vitae magna dictum porta. Aenean tempor nec velit ut fringilla.</p>
+
+<p>Aenean augue lectus, sollicitudin at diam id, laoreet suscipit massa. Etiam lectus est, malesuada vel rutrum at, consequat nec eros. Suspendisse euismod, risus ut efficitur cursus, neque urna imperdiet ex, vehicula pretium massa nulla posuere enim. Vivamus dapibus dolor at justo fringilla vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse pretium iaculis accumsan. Maecenas sit amet vehicula metus, sed placerat tortor. Quisque ut convallis nunc, a rutrum justo. Proin eu ex tortor. Vivamus porttitor, sapien sed finibus sagittis, nisl nisl laoreet tellus, sed varius ex est sit amet dolor.</p>
+
+<p>Vivamus lobortis tincidunt scelerisque. Ut vestibulum ante erat, eget ultricies lorem placerat vitae. Aliquam iaculis rhoncus enim cursus malesuada. Curabitur ac nunc mollis, aliquam orci nec, tincidunt magna. Nullam sit amet sapien non eros porta mollis sit amet id diam. Donec varius arcu id tortor feugiat lacinia. Mauris vel consequat sem. Integer et iaculis magna, dapibus mattis tortor.</p>
+
+Nam ultricies elit in neque porttitor scelerisque ac a tellus. Duis ipsum erat, finibus quis sapien et, convallis posuere sapien. Duis sed purus eros. Duis accumsan, eros ut mollis aliquam, lacus massa faucibus diam, sed lacinia purus mi sit amet enim. In ac ligula ut quam posuere aliquam eget auctor velit. Nullam faucibus mi eu felis laoreet varius. Fusce condimentum mauris eu risus tincidunt, vel venenatis arcu convallis. Suspendisse libero libero, ornare sed nibh nec, pellentesque pretium neque. Mauris vestibulum molestie sem id condimentum. Sed tempor dolor ante, at blandit erat faucibus at. Nulla finibus malesuada lectus, blandit condimentum ex ornare eleifend. Integer et ex augue.
+
+<p>Sed at dolor ac justo maximus consectetur eu id lectus. Nullam suscipit feugiat vestibulum. Aenean neque sapien, maximus id ligula et, convallis mollis magna. Aenean efficitur ligula mauris. Mauris rhoncus condimentum varius. Phasellus ultricies felis quis rhoncus molestie. Fusce tincidunt neque et rutrum sagittis. Vivamus massa odio, feugiat quis justo ut, dictum tincidunt mi. Suspendisse imperdiet commodo nisi, eget consectetur urna pharetra nec. Morbi eu commodo risus, nec maximus elit. Fusce gravida velit ut turpis placerat blandit. Praesent facilisis est id quam lobortis cursus ut ut nulla. Aliquam placerat nunc vitae magna dapibus dapibus. Morbi laoreet lectus sem, vehicula luctus felis dapibus non.</p>
+
+<h6 id="project-tile">Generated 5 paragraphs, 496 words, 3349 bytes of Lorem Ipsum</h6>
+    </div>
+
+    <footer class="navbar navbar-dark bg-secondary justify-content-center">
+     <h2 class="rodapé"> &copy; Direitos reservados de Allyson de Oliveira Brandão .</h2>
+    </footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
 </body>
 
 </html>
